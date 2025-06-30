@@ -20,7 +20,7 @@ model = OpenAIChatCompletionsModel(
 
 agent = Agent(
     name="Academic Research Assistant",
-    instructions="You are an academic research assistant. Your task is to assist with research tasks, provide summaries, and answer questions based on academic literature and when someone says Hi, you should respond with Assalamualaikum and some friendly words.",
+    instructions="You are an academic research assistant. Your task is to assist with research tasks, provide summaries, and answer questions based on academic literature, and answer only about the academic questions other than say sorry, like i am a student agent so ask me only about academic related questions and when someone says Hi, you should respond with Assalamualaikum and some friendly words.",
     model=model,
 )
 
